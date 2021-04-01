@@ -1,0 +1,166 @@
+<div id="wrapper">
+
+  <!-- Main -->
+  <div id="main">
+    <div class="inner">
+
+      <!-- Header -->
+      <header id="header">
+        <div class="logo">
+          <a href="index.html">WMO Projekt</a>
+        </div>
+      </header>
+
+      <!-- Banner -->
+      <section class="main-banner">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="banner-content">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="banner-caption">
+                      <h4>Treść zadania</h4>
+                      <p>Opracować materiały dydaktyczne prezentujące zasady i możliwości dostosowania metodyki do realizowanego przedsięwzięcia informatycznego</p>
+                      <div class="primary-button">
+                        <a href="#classes">Start</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <section>
+      <h3 style="padding-bottom: 20px">Kryteria projektu</h3>
+      <h6 style="padding-bottom: 10px">Wybierz parametry:</h6>
+      <div class="row" style="padding-bottom: 25px">
+      <div class="col-md-2">
+      <label for="range1" class="form-label">Liczebność zespołu</label>
+      <input type="range" class="form-range" min="1" max="200" id="range1" [(ngModel)]="amount" >
+      <label for="range1" class="form-label">{{amount}}</label>
+      </div>
+      <div class="col-md-2">
+        <label for="range2" class="form-label">Zakres</label>
+        <input type="range" class="form-range" min="0" max="3" id="range2" [(ngModel)]="rangeNumber" >
+        <label for="range2" class="form-label">{{range[rangeNumber]}}</label>
+      </div>
+        <div class="col-md-2">
+          <label for="range3" class="form-label">Czas trwania</label>
+          <input type="range" class="form-range" min="1" max="260" id="range3" [(ngModel)]="time" (ngModelChange)="timeUnitCalc()">
+          <label for="range3" class="form-label">{{timeValue}} {{timeUnit}}</label>
+        </div>
+        <div class="col-md-2">
+          <label for="range4" class="form-label">Koszt</label>
+          <input type="range" class="form-range" min="50" max="500000" step="100" id="range4" [(ngModel)]="cost" (ngModelChange)="calc()"  >
+          <label for="range4" class="form-label">{{costValue}} {{unit}}</label>
+        </div>
+        <div class="col-md-2">
+          <label for="range5" class="form-label">Stopień skomplikowania</label>
+          <input type="range" class="form-range" min="0" max="3" id="range5" [(ngModel)]="compRangeNumber" >
+          <label for="range5" class="form-label">{{compRange[compRangeNumber]}}</label>
+        </div>
+        <div class="col-md-2">
+          <label for="range6" class="form-label">Ryzyko</label>
+          <input type="range" class="form-range" min="0" max="2" id="range6" [(ngModel)]="riskRangeNumber" >
+          <label for="range6" class="form-label">{{riskRange[riskRangeNumber]}}</label>
+        </div>
+      </div>
+      <div class="row" style="padding-bottom: 25px">
+      <button class="col-md-2" (click)="matchProject()">Określ klasę projektu</button>
+      </div>
+      <h5>{{result}}</h5>
+    </section>
+
+      <!-- Services -->
+      <div id="classes">
+        <section class="services">
+          <h2 class="header">Klasy projektów</h2>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="service-item first-item">
+                  <div class="icon"></div>
+                  <h4>Klasa I</h4>
+                  <p><strong>Liczebność zespołu: </strong> 1</p>
+                  <p><strong>Zakres: </strong> mały</p>
+                  <p><strong>Czas trwania: </strong> 3 tyg</p>
+                  <p><strong>Koszt (w jednostkach pieniężnych): </strong> do 50 tyś</p>
+                  <p><strong>Stopień skomplikowania: </strong> mały</p>
+                  <p><strong>Ryzyko: </strong> niskie</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <a routerLink="classI">
+                  <div class="service-item second-item">
+                    <div class="icon"></div>
+                    <h4>Klasa II</h4>
+                    <p><strong>Liczebność zespołu: </strong> 1-3</p>
+                    <p><strong>Zakres: </strong> mały</p>
+                    <p><strong>Czas trwania: </strong> do 7 tyg</p>
+                    <p><strong>Koszt (w jednostkach pieniężnych): </strong> do 100 tyś</p>
+                    <p><strong>Stopień skomplikowania: </strong> mały</p>
+                    <p><strong>Ryzyko: </strong> niskie</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-4">
+                <div class="service-item third-item">
+                  <div class="icon"></div>
+                  <h4>Klasa III</h4>
+                  <p><strong>Liczebność zespołu: </strong> 3-10</p>
+                  <p><strong>Zakres: </strong> średni</p>
+                  <p><strong>Czas trwania: </strong> od 7 tyg do 6 mies.</p>
+                  <p><strong>Koszt (w jednostkach pieniężnych): </strong> 0,1-1 mln</p>
+                  <p><strong>Stopień skomplikowania: </strong> średni</p>
+                  <p><strong>Ryzyko: </strong> niskie</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="service-item fourth-item">
+                  <div class="icon"></div>
+                  <h4>Klasa IV</h4>
+                  <p><strong>Liczebność zespołu: </strong> 10-50</p>
+                  <p><strong>Zakres: </strong> średni</p>
+                  <p><strong>Czas trwania: </strong> 6 mies. - 1 rok</p>
+                  <p><strong>Koszt (w jednostkach pieniężnych): </strong> 1-10mln</p>
+                  <p><strong>Stopień skomplikowania: </strong> średni</p>
+                  <p><strong>Ryzyko: </strong> średnie</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <a routerLink="classII">
+                <div class="service-item fivth-item">
+                  <div class="icon"></div>
+                  <h4>Klasa V</h4>
+                  <p><strong>Liczebność zespołu: </strong> 50-150</p>
+                  <p><strong>Zakres: </strong> duży</p>
+                  <p><strong>Czas trwania: </strong> 1 rok - 3 lata</p>
+                  <p><strong>Koszt (w jednostkach pieniężnych): </strong> 10-100mln</p>
+                  <p><strong>Stopień skomplikowania: </strong> duży</p>
+                  <p><strong>Ryzyko: </strong> średnie</p>
+                </div>
+                </a>
+              </div>
+              <div class="col-md-4">
+                <div class="service-item sixth-item">
+                  <div class="icon"></div>
+                  <h4>Klasa VI</h4>
+                  <p><strong>Liczebność zespołu: </strong> powyżej 150</p>
+                  <p><strong>Zakres: </strong> bardzo duży</p>
+                  <p><strong>Czas trwania: </strong> powyżej 3 lata</p>
+                  <p><strong>Koszt (w jednostkach pieniężnych): </strong> powyżej 100mln</p>
+                  <p><strong>Stopień skomplikowania: </strong> bardzo duży</p>
+                  <p><strong>Ryzyko: </strong> średnie</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>

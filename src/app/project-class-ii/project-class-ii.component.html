@@ -1,0 +1,117 @@
+<div id="wrapper">
+
+  <!-- Main -->
+  <div id="main">
+    <div class="inner">
+
+      <!-- Header -->
+      <header id="header">
+        <div class="logo">
+          <a href="index.html">WMO Projekt</a>
+        </div>
+      </header>
+      <!-- Banner -->
+      <section class="main-banner">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="banner-content">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="banner-caption">
+                      <h4>Klasa V</h4>
+                      <p>Poniżej przedstawiono tabelę z produktami, aktywnościami i zadaniami dla klasy 5</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section >
+        <div class="row" style="padding-bottom: 25px">
+          <div class="col-md-3">
+            <div class="d-inline-block" ngbDropdown>
+              <button class="btn btn-outline-primary" id="disciplineDropdown" ngbDropdownToggle>{{disciplineName}}</button>
+              <div aria-labelledby="disciplineDropdown" ngbDropdownMenu>
+                <button ngbDropdownItem (click)="onClickDisc('Business Modeling')">Business Modeling</button>
+                <button ngbDropdownItem (click)="onClickDisc('Requirements')">Requirements</button>
+                <button ngbDropdownItem (click)="onClickDisc('Analysis and Design')">Analysis and Design</button>
+                <button ngbDropdownItem (click)="onClickDisc('Implementation')">Implementation</button>
+                <button ngbDropdownItem (click)="onClickDisc('Test')">Test</button>
+                <button ngbDropdownItem (click)="onClickDisc('Deployment')">Deployment</button>
+                <button ngbDropdownItem (click)="onClickDisc('Configuration and CM')">Configuration and Change Management</button>
+                <button ngbDropdownItem (click)="onClickDisc('Project Management')">Project Management</button>
+                <button ngbDropdownItem (click)="onClickDisc('')">Wszystkie dyscypliny</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="d-inline-block" ngbDropdown>
+              <button class="btn btn-outline-primary" id="phasesDropdown" ngbDropdownToggle>{{phaseName}}</button>
+              <div aria-labelledby="phasesDropdown" ngbDropdownMenu>
+                <button ngbDropdownItem (click)="onClickPhs('inception')">Inception</button>
+                <button ngbDropdownItem (click)="onClickPhs('elaboration')">Elaboration</button>
+                <button ngbDropdownItem (click)="onClickPhs('construction')">Construction</button>
+                <button ngbDropdownItem (click)="onClickPhs('transition')">Transition</button>
+                <button ngbDropdownItem (click)="onClickPhs('')">Wszystkie</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form>
+          <div class="form-group form-inline">
+            Wyszukaj: <input class="form-control ml-2" type="text" name="searchTerm" [(ngModel)]="service.searchTerm" />
+            <span class="ml-3" *ngIf="service.loading$ | async">Loading...</span>
+          </div>
+          <table class="table table-striped table-bordered">
+            <thead>
+            <tr>
+              <th colspan="2" style='border-left-color: #ffffff; border-top-color: #ffffff' ></th>
+              <th colspan="4">Activities</th>
+              <th colspan="2" style='border-right-color: #ffffff; border-top-color: #ffffff'></th>
+            </tr>
+            <tr>
+              <th scope="col">Discipline</th>
+              <th scope="col">Tasks</th>
+              <th scope="col">Inception</th>
+              <th scope="col">Elaboration</th>
+              <th scope="col">Construction</th>
+              <th scope="col">Transition</th>
+              <th scope="col">Role Main</th>
+              <th scope="col">Output Artifacts</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let row of rows$ | async; index as i">
+              <td scope="row"><ngb-highlight [result]="row.discipline" [term]="service.searchTerm"></ngb-highlight></td>
+              <td><ngb-highlight [result]="row.task" [term]="service.searchTerm"></ngb-highlight></td>
+              <td><ngb-highlight [result]="row.inception" [term]="service.searchTerm"></ngb-highlight></td>
+              <td><ngb-highlight [result]="row.elaboration" [term]="service.searchTerm"></ngb-highlight></td>
+              <td><ngb-highlight [result]="row.construction" [term]="service.searchTerm"></ngb-highlight></td>
+              <td><ngb-highlight [result]="row.transition" [term]="service.searchTerm"></ngb-highlight></td>
+              <td><ngb-highlight [result]="row.role" [term]="service.searchTerm"></ngb-highlight></td>
+              <td><ngb-highlight [result]="row.artifacts" [term]="service.searchTerm"></ngb-highlight></td>
+            </tr>
+            </tbody>
+          </table>
+          <div class="d-flex justify-content-between p-2">
+            <ngb-pagination
+              [collectionSize]="(total$ | async)!" [(page)]="service.page" [pageSize]="service.pageSize">
+            </ngb-pagination>
+
+            <select class="custom-select" style="width: auto" name="pageSize" [(ngModel)]="service.pageSize">
+              <option [ngValue]="2">2 wiersze</option>
+              <option [ngValue]="4">4 wiersze</option>
+              <option [ngValue]="6">6 wierszy</option>
+              <option [ngValue]="8">8 wierszy</option>
+              <option [ngValue]="10">10 wierszy</option>
+            </select>
+          </div>
+        </form>
+      </section>
+    </div>
+  </div>
+</div>
