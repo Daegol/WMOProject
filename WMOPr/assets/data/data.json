@@ -1,0 +1,1021 @@
+﻿{
+    "Business Modeling": [
+        {
+            "Dyscyplina": "Business Modeling",
+            "Tasks": "Assets Target Organization",
+            "Inception": "Assess Business Status",
+            "Role Main": "Business-Process Analyst",
+            "Output Artifacts": "Target Organization Assessment",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Business Modeling",
+            "Tasks": "Business Architectural Analysis",
+            "Inception": "Assess Business Status,Describe Current Processes,Develop Domain Model",
+            "Elaboration": "Describe Current Processes,Define Business",
+            "Construction": "Define Business",
+            "Transition": "Define Business",
+            "Role Main": "Business Architect",
+            "Output Artifacts": "Business Analysis Model, Business Architecture Document,Business Deployment Model,Business Design Model",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Business Modeling",
+            "Tasks": "Business Operation Analysis",
+            "Elaboration": "Define Business",
+            "Transition": "Define Business",
+            "Role Main": "Business Designer",
+            "Output Artifacts": "Business Analysis Model, Business Use Case Model",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Business Modeling",
+            "Tasks": "Business Operation Design",
+            "Elaboration": "Define Business",
+            "Construction": "Define Business",
+            "Transition": "Define Business",
+            "Role Main": "Business Designer",
+            "Output Artifacts": "Business Deployment Model, Business Design Model",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Business Modeling",
+            "Tasks": "Business Use-Case Analysis",
+            "Elaboration": "Define Business",
+            "Construction": "Define Business",
+            "Transition": "Define Business",
+            "Role Main": "Business Designer",
+            "Output Artifacts": "Business Deployment Model, Business Design Model",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Business Modeling",
+            "Tasks": "Capture a Common Business Vocabulary",
+            "Inception": "Assess Business Status,Describe Current Processes,Develop Domain Model",
+            "Elaboration": "Describe Current Processes,Define Business",
+            "Construction": "Define Business",
+            "Role Main": "Business-Process Analyst",
+            "Output Artifacts": "Business Glossary",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Business Modeling",
+            "Tasks": "Construct Business Architectural Proof-of-Concept",
+            "Elaboration": "Explore Process Automation",
+            "Role Main": "Business Architect",
+            "Output Artifacts": "Business Architectural PoC",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Business Modeling",
+            "Tasks": "Define Automation Requirements",
+            "Elaboration": "Explore Process Automation",
+            "Construction": "Explore Process Automation",
+            "Transition": "Explore Process Automation",
+            "Role Main": "Business Designer",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Business Modeling",
+            "Tasks": "Define Business System Context",
+            "Elaboration": "Define Business",
+            "Role Main": "Business-Process Analyst",
+            "Output Artifacts": "Business Analysis Model, Business Use Case Model",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Business Modeling",
+            "Tasks": "Detail a Business Entity",
+            "Inception": "Develop Domain Model",
+            "Construction": "Define Business",
+            "Transition": "Define Business",
+            "Role Main": "Business Designer",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Business Modeling",
+            "Tasks": "Detail a Business Use Case",
+            "Construction": "Define Business",
+            "Role Main": "Business Designer",
+            "Output Artifacts": "Supplementary Business Specification",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Business Modeling",
+            "Tasks": "Detail a Business Worker",
+            "Construction": "Define Business",
+            "Transition": "Define Business",
+            "Role Main": "Business Designer",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Business Modeling",
+            "Tasks": "Find Business Actors and Use Cases",
+            "Inception": "Describe Current Processes",
+            "Elaboration": "Describe Current Processes,Define Business",
+            "Construction": "Define Business",
+            "Role Main": "Business-Process Analyst",
+            "Output Artifacts": "Business Use Case Model,Supplementary Business Specification",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Business Modeling",
+            "Tasks": "Identify Business Goals and KPI",
+            "Inception": "Assess Business Status,Describe Current Processes",
+            "Elaboration": "Define Business",
+            "Role Main": "Business-Process Analyst",
+            "Output Artifacts": "Business Goal",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Business Modeling",
+            "Tasks": "Maintain Business Rules",
+            "Inception": "Assess Business Status,Describe Current Processes,Develop Domain Model",
+            "Elaboration": "Describe Current Processes,Define Business",
+            "Construction": "Define Business",
+            "Transition": "Define Business",
+            "Role Main": "Business-Process Analyst",
+            "Output Artifacts": "Business Rule",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Business Modeling",
+            "Tasks": "Prioritize Business Use Cases",
+            "Elaboration": "Define Business",
+            "Construction": "Define Business",
+            "Role Main": "Business Architect",
+            "Output Artifacts": "Business Deployment Model, Business Use Case Model",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Business Modeling",
+            "Tasks": "Review the Business Analysis Model",
+            "Inception": "Develop Domain Model",
+            "Elaboration": "Define Business",
+            "Construction": "Define Business",
+            "Transition": "Define Business",
+            "Role Main": "Technical Reviewer",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Business Modeling",
+            "Tasks": "Review the Business Use Case",
+            "Elaboration": "Define Business",
+            "Construction": "Define Business",
+            "Role Main": "Technical Reviewer",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Business Modeling",
+            "Tasks": "Set and Adjust Objectives",
+            "Inception": "Assess Business Status,Describe Current Processes",
+            "Elaboration": "Define Business",
+            "Role Main": "Business-Process Analyst",
+            "Output Artifacts": "Business Vision",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Business Modeling",
+            "Tasks": "Structure the Business Use-Case Model",
+            "Elaboration": "Define Business",
+            "Construction": "Define Business",
+            "Role Main": "Business-Process Analyst",
+            "Output Artifacts": "Business Use Case Model",
+            "II": "x",
+            "V": "x"
+        }
+    ],
+    "Requirements": [
+        {
+            "Dyscyplina": "Requirements",
+            "Tasks": "Capture a Common Vocabulary",
+            "Inception": "Analyze the Problem,Understand Stakeholder Needs,Define the System",
+            "Transition": "Analyze the Problem,Understand Stakeholder Needs",
+            "Role Main": "System Analyst",
+            "Output Artifacts": "Glossary",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Requirements",
+            "Tasks": "Detail a Use Case",
+            "Elaboration": "Refine the System Definition",
+            "Role Main": "Requirements Specifer",
+            "Output Artifacts": "Requirements Attributes",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Requirements",
+            "Tasks": "Detail the Software Requirement",
+            "Elaboration": "Refine the System Definition",
+            "Role Main": "Requirements Specifer",
+            "Output Artifacts": "Requirements Attributes, Software Requirements, Software Requirements Specification",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Requirements",
+            "Tasks": "Develop Requirements Management Plan",
+            "Inception": "Analyze the Problem",
+            "Role Main": "System Analyst",
+            "Output Artifacts": "Requirements Management Plan",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Requirements",
+            "Tasks": "Develop Supplementary Specifications",
+            "Inception": "Understand Stakeholder Needs,Define the System",
+            "Elaboration": "Refine the System Definition",
+            "Transition": "Understand Stakeholder Needs",
+            "Role Main": "System Analyst",
+            "Output Artifacts": "Requirements Attributes, Supplementary Specifications",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Requirements",
+            "Tasks": "Develop Vision",
+            "Inception": "Analyze the Problem,Understand Stakeholder Needs,Define the System,Manage the Scope of the System",
+            "Transition": "Analyze the Problem,Understand Stakeholder Needs",
+            "Role Main": "System Analyst",
+            "Output Artifacts": "Requirements Attributes, Vision",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Requirements",
+            "Tasks": "Elicit Stakeholder Requests",
+            "Inception": "Understand Stakeholder Needs",
+            "Transition": "Understand Stakeholder Needs",
+            "Role Main": "System Analyst",
+            "Output Artifacts": "Requirements Attributes,Stakeholder Requests,Storyboard",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Requirements",
+            "Tasks": "Find Actors and Use Cases",
+            "Inception": "Analyze the Problem,Understand Stakeholder Needs,Define the System",
+            "Transition": "Analyze the Problem,Understand Stakeholder Needs",
+            "Role Main": "System Analyst",
+            "Output Artifacts": "Requirements Attributes,Use Case Model",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Requirements",
+            "Tasks": "Manage Dependencies",
+            "Inception": "Understand Stakeholder Needs,Define the System,Manage the Scope of the System",
+            "Elaboration": "Manage Changing Requirements",
+            "Construction": "Manage Changing Requirements",
+            "Transition": "Manage Changing Requirements",
+            "Role Main": "System Analyst",
+            "Output Artifacts": "Requirements Attributes, Requirements Management Plan, Vision",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Requirements",
+            "Tasks": "Prioritize Use Cases",
+            "Inception": "Manage the Scope of the System",
+            "Role Main": "Software Architect",
+            "Output Artifacts": "Requirements Attributes, Software Requirements",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Requirements",
+            "Tasks": "Review Requirements",
+            "Elaboration": "Manage Changing Requirements",
+            "Construction": "Manage Changing Requirements",
+            "Transition": "Manage Changing Requirements",
+            "Role Main": "Technical Reviewer",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Requirements",
+            "Tasks": "Structure the Use-Case Model",
+            "Elaboration": "Manage Changing Requirements",
+            "Construction": "Manage Changing Requirements",
+            "Transition": "Manage Changing Requirements",
+            "Role Main": "System Analyst",
+            "Output Artifacts": "Glossary, Requirements Attributes, Supplementary Specifications, Use Case Model",
+            "II": "x",
+            "V": "x"
+        }
+    ],
+    "Analysis and Design": [
+        {
+            "Dyscyplina": "Analysis and Design",
+            "Tasks": "Architectural Analysis\t",
+            "Inception": "Perform Architectural Synthesis",
+            "Elaboration": "Define a Candidate Architecture",
+            "Role Main": "Software Architect",
+            "Output Artifacts": "Analysis Class,Analysis Model,Deployment Model,Design Model",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Analysis and Design",
+            "Tasks": "Assess Viability of Architectural Proof-of-Concept",
+            "Inception": "Perform Architectural Synthesis",
+            "Role Main": "Software Architect",
+            "Output Artifacts": "Reference Architecture,Review Record",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Analysis and Design",
+            "Tasks": "Class Design",
+            "Elaboration": "Design Components,Design the Database",
+            "Construction": "Design Components",
+            "Role Main": "Designer",
+            "Output Artifacts": "Design Class,Design Model",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Analysis and Design",
+            "Tasks": "Construct Architectural Proof-of-Concept",
+            "Inception": "Perform Architectural Synthesis",
+            "Role Main": "Software Architect",
+            "Output Artifacts": "Architectural Proof-of-Concept",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Analysis and Design",
+            "Tasks": "Database Design",
+            "Elaboration": "Design the Database",
+            "Role Main": "Database Designer",
+            "Output Artifacts": "Architectural Proof-of-Concept",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Analysis and Design",
+            "Tasks": "Describe Distribution",
+            "Elaboration": "Refine the Architecture",
+            "Construction": "Refine the Architecture",
+            "Transition": "Refine the Architecture",
+            "Role Main": "Software Architect",
+            "Output Artifacts": "Deployment Model,Software Architecture Document",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Analysis and Design",
+            "Tasks": "Describe the Run-time Architecture",
+            "Elaboration": "Refine the Architecture",
+            "Construction": "Refine the Architecture",
+            "Transition": "Refine the Architecture",
+            "Role Main": "Software Architect",
+            "Output Artifacts": "Design Model,Software Architecture Document",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Analysis and Design",
+            "Tasks": "Design the User Interface",
+            "Elaboration": "Analyze Behaviour",
+            "Role Main": "User-Interface Designer",
+            "Output Artifacts": "Navigation Map",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Analysis and Design",
+            "Tasks": "Identify Design Elements",
+            "Elaboration": "Analyze Behaviour,Refine the Architecture",
+            "Construction": "Refine the Architecture",
+            "Role Main": "Software Architect",
+            "Output Artifacts": "Design Class,Design Model,Design Package,Design Subsystem,Event,Interface,Signal",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Analysis and Design",
+            "Tasks": "Identify Design Mechanisms",
+            "Elaboration": "Refine the Architecture",
+            "Construction": "Refine the Architecture",
+            "Transition": "Refine the Architecture",
+            "Role Main": "Software Architect",
+            "Output Artifacts": "Design Class,Design Model,Design Package,Design Subsystem,Software Architecture Document",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Analysis and Design",
+            "Tasks": "Incorporate Existing Design Elements",
+            "Elaboration": "Refine the Architecture",
+            "Construction": "Refine the Architecture",
+            "Transition": "Refine the Architecture",
+            "Role Main": "Software Architect",
+            "Output Artifacts": "Design Class,Design Model,Design Package,Design Subsystem,Interface,Software Architecture Document",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Analysis and Design",
+            "Tasks": "Prototype the User-Interface",
+            "Elaboration": "Analyze Behaviour",
+            "Role Main": "User-Interface Designer",
+            "Output Artifacts": "User-Interface Prototype",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Analysis and Design",
+            "Tasks": "Review the Architecture",
+            "Construction": "Refine the Architecture",
+            "Transition": "Refine the Architecture",
+            "Role Main": "Technical Reviewer",
+            "Output Artifacts": "Review Record",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Analysis and Design",
+            "Tasks": "Review the Design",
+            "Elaboration": "Analyze Behaviour,Design Components,Design the Database",
+            "Construction": "Design Components",
+            "Role Main": "Technical Reviewer",
+            "Output Artifacts": "Review Record",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Analysis and Design",
+            "Tasks": "Subsystem Design",
+            "Elaboration": "Design Components",
+            "Construction": "Design Components",
+            "Role Main": "Designer",
+            "Output Artifacts": "Design Class,Design Model,Design Subsystem,Interface",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Analysis and Design",
+            "Tasks": "Use-Case Analysis",
+            "Elaboration": "Define a Candidate Architecture,Analyze Behaviour",
+            "Role Main": "Designer",
+            "Output Artifacts": "Analysis Class,Analysis Model,Use-Case Realization",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Analysis and Design",
+            "Tasks": "Use-Case Design",
+            "Elaboration": "Design Components",
+            "Construction": "Design Components",
+            "Role Main": "Designer",
+            "Output Artifacts": "Design Model,Use-Case Realization",
+            "II": "x",
+            "V": "x"
+        }
+    ],
+    "Implementation": [
+        {
+            "Dyscyplina": "Implementation",
+            "Tasks": "Analyze Runtime Behavior",
+            "Elaboration": "Implement Components",
+            "Construction": "Implement Components",
+            "Role Main": "Implementer",
+            "Output Artifacts": "Test Results",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Implementation",
+            "Tasks": "Execute Developer Tests",
+            "Elaboration": "Implement Components,Integrate each Subsystem",
+            "Construction": "Implement Components,Integrate each Subsystem",
+            "Transition": "Implement Components,Integrate each Subsystem",
+            "Role Main": "Implementer",
+            "Output Artifacts": "Test Log",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Implementation",
+            "Tasks": "Implement Design Elements",
+            "Elaboration": "Implement Components",
+            "Construction": "Implement Components",
+            "Role Main": "Implementer",
+            "Output Artifacts": "Implementation Element,Implementation Subsystem",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Implementation",
+            "Tasks": "Implement Developer Test",
+            "Elaboration": "Implement Components,Integrate each Subsystem",
+            "Construction": "Implement Components,Integrate each Subsystem",
+            "Role Main": "Implementer",
+            "Output Artifacts": "Developer Test",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Implementation",
+            "Tasks": "Integrate Subsystem",
+            "Elaboration": "Integrate each Subsystem",
+            "Construction": "Integrate each Subsystem",
+            "Transition": "Integrate each Subsystem",
+            "Role Main": "Integrator",
+            "Output Artifacts": "Build,Implementation Subsystem",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Implementation",
+            "Tasks": "Integrate System",
+            "Elaboration": "Integrate the System",
+            "Construction": "Integrate the System",
+            "Transition": "Integrate the System",
+            "Role Main": "Integrator",
+            "Output Artifacts": "Build",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Implementation",
+            "Tasks": "Plan Subsystem Integration",
+            "Elaboration": "Implement Components",
+            "Construction": "Implement Components",
+            "Role Main": "Integrator",
+            "Output Artifacts": "Integration Build Plan",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Implementation",
+            "Tasks": "Plan System Integration",
+            "Elaboration": "Plan the Integration",
+            "Construction": "Plan the Integration",
+            "Role Main": "Integrator",
+            "Output Artifacts": "Integration Build Plan",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Implementation",
+            "Tasks": "Review Code",
+            "Elaboration": "Implement Components",
+            "Construction": "Implement Components",
+            "Transition": "Implement Components",
+            "Role Main": "Technical Reviewer",
+            "Output Artifacts": "Review Record",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Implementation",
+            "Tasks": "Structure the Implementation Model",
+            "Inception": "Structure the Implementation Model",
+            "Role Main": "Software Architect",
+            "Output Artifacts": "Implementation Model,Implementation Subsystem,Software Architecture Document",
+            "II": "x",
+            "V": "x"
+        }
+    ],
+    "Test": [
+        {
+            "Dyscyplina": "Test",
+            "Tasks": "Structure the Test Implementation",
+            "Elaboration": "Test and Evaluate,Improve Test Assets",
+            "Construction": "Test and Evaluate,Improve Test Assets",
+            "Transition": "Improve Test Assets",
+            "Role Main": "Test Designer",
+            "Output Artifacts": "Test Suite",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Test",
+            "Tasks": "Implement Test Suite",
+            "Elaboration": "Test and Evaluate,Improve Test Assets",
+            "Construction": "Test and Evaluate,Improve Test Assets",
+            "Role Main": "Tester",
+            "Output Artifacts": "Test Suite",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Test",
+            "Tasks": "Identify Test Ideas",
+            "Inception": "Define Evaluation Mission,Test and Evaluate,Improve Test Assets",
+            "Elaboration": "Define Evaluation Mission,Test and Evaluate,Improve Test Assets",
+            "Construction": "Test and Evaluate,Improve Test Assets",
+            "Role Main": "Test Analyst",
+            "Output Artifacts": "Test-Ideas List",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Test",
+            "Tasks": "Execute Test Suite",
+            "Elaboration": "Validate Build Stability,Test and Evaluate",
+            "Construction": "Test and Evaluate",
+            "Transition": "Test and Evaluate",
+            "Role Main": "Tester",
+            "Output Artifacts": "Test Log",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Test",
+            "Tasks": "Determine Test Results",
+            "Inception": "Achieve Acceptable Mission",
+            "Elaboration": "Validate Build Stability,Test and Evaluate,Achieve Acceptable Mission",
+            "Construction": "Validate Build Stability,Test and Evaluate,Achieve Acceptable Mission",
+            "Transition": "Validate Build Stability,Test and Evaluate,Achieve Acceptable Mission",
+            "Role Main": "Test Analyst",
+            "Output Artifacts": "Test Evaluation Summary,Test Results",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Test",
+            "Tasks": "Define Test Approach",
+            "Inception": "Define Evaluation Mission,Improve Test Assets",
+            "Elaboration": "Define Evaluation Mission,Improve Test Assets",
+            "Construction": "Define Evaluation Mission,Improve Test Assets",
+            "Transition": "Define Evaluation Mission,Improve Test Assets",
+            "Role Main": "Test Designer",
+            "Output Artifacts": "Test Strategy",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Test",
+            "Tasks": "Assess and Advocate Quality",
+            "Elaboration": "Validate Build Stability,Achieve Acceptable Mission",
+            "Construction": "Validate Build Stability,Achieve Acceptable Mission",
+            "Transition": "Validate Build Stability,Achieve Acceptable Mission",
+            "Role Main": "Test Manager",
+            "Output Artifacts": "Test Evaluation Summary",
+            "V": "x"
+        }
+    ],
+    "Deployment": [
+        {
+            "Dyscyplina": "Deployment",
+            "Tasks": "Develop Deployment Plan",
+            "Elaboration": "Develop Plan Deployment",
+            "Role Main": "Deployment Manager",
+            "Output Artifacts": "Deployment Plan",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Deployment",
+            "Tasks": "Define Bill of Materials",
+            "Elaboration": "Develop Plan Deployment",
+            "Role Main": "Deployment Manager",
+            "Output Artifacts": "Bill of Materials",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Deployment",
+            "Tasks": "Develop Training Materials",
+            "Construction": "Develop Support Material",
+            "Transition": "Develop Support Material",
+            "Role Main": "Course Developer,Technical Writer",
+            "Output Artifacts": "Training Materials",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Deployment",
+            "Tasks": "Develop Support Materials",
+            "Construction": "Develop Support Material",
+            "Transition": "Develop Support Material",
+            "Role Main": "Course Developer,Technical Writer",
+            "Output Artifacts": "End-User Support Materials",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Deployment",
+            "Tasks": "Manage Acceptance Test",
+            "Elaboration": "Manage Acceptance Test",
+            "Construction": "Manage Acceptance Test",
+            "Role Main": "Deployment Manager",
+            "Output Artifacts": "Acceptance Test Model, Acceptance Test Results",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Deployment",
+            "Tasks": "Produce Deployment Unit",
+            "Elaboration": "Produce Deployment Unit",
+            "Role Main": "Deployment Manager,Implementator",
+            "Output Artifacts": "Deployment Unit",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Deployment",
+            "Tasks": "Manage Beta Test",
+            "Elaboration": "Manage Beta Test",
+            "Construction": "Manage Beta Test",
+            "Role Main": "Deployment Manager",
+            "Output Artifacts": "Beta Test",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Deployment",
+            "Tasks": "Manage Package Product",
+            "Transition": "Manage Package Product",
+            "Role Main": "Deployment Manager",
+            "Output Artifacts": "Product Artwork, Product",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Deployment",
+            "Tasks": "Develop Release Notes",
+            "Transition": "Manage Package Product",
+            "Role Main": "Deployment Manager",
+            "Output Artifacts": "Release Notes",
+            "II": "x",
+            "V": "x"
+        }
+    ],
+    "Configuration and CM": [
+        {
+            "Dyscyplina": "Configuration and Change Management",
+            "Tasks": "Confirm Duplicate or Rejected CR",
+            "Inception": "Manage Change Requests",
+            "Elaboration": "Manage Change Requests",
+            "Construction": "Manage Change Requests",
+            "Transition": "Manage Change Requests",
+            "Role Main": "Change Control Manager",
+            "Output Artifacts": "Change Request",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Configuration and Change Management",
+            "Tasks": "Review Change Requests",
+            "Inception": "Manage Change Requests",
+            "Elaboration": "Manage Change Requests",
+            "Construction": "Manage Change Requests",
+            "Transition": "Manage Change Requests",
+            "Role Main": "Change Control Manager",
+            "Output Artifacts": "Change Request",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Configuration and Change Management",
+            "Tasks": "Set Up Configuration Management (CM) Environment",
+            "Inception": "Plan Project Configuration & Change Control,Create Project CM Environments",
+            "Elaboration": "Plan Project Configuration & Change Control,Create Project CM Environments",
+            "Role Main": "Configuration Manager",
+            "Output Artifacts": "Project Repository",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Configuration and Change Management",
+            "Tasks": "Submit Change Request",
+            "Inception": "Manage Change Requests",
+            "Elaboration": "Manage Change Requests",
+            "Construction": "Manage Change Requests",
+            "Transition": "Manage Change Requests",
+            "Role Main": "Any Role",
+            "Output Artifacts": "Change Request",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Configuration and Change Management",
+            "Tasks": "Monitor & Report Configuration Status",
+            "Inception": "Monitor & Report Configuration Status",
+            "Elaboration": "Monitor & Report Configuration Status",
+            "Construction": "Monitor & Report Configuration Status",
+            "Transition": "Monitor & Report Configuration Status",
+            "Role Main": "Configuration Manager",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Configuration and Change Management",
+            "Tasks": "Change and Deliver Configuration Items",
+            "Inception": "Change and Deliver Configuration Items",
+            "Elaboration": "Change and Deliver Configuration Items",
+            "Construction": "Change and Deliver Configuration Items",
+            "Transition": "Change and Deliver Configuration Items",
+            "Role Main": "Integrator,Any Role",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Configuration and Change Management",
+            "Tasks": "Manage Baselines & Releases",
+            "Inception": "Manage Baselines & Releases",
+            "Elaboration": "Manage Baselines & Releases",
+            "Construction": "Manage Baselines & Releases",
+            "Transition": "Manage Baselines & Releases",
+            "Role Main": "Configuration Manager,Integrator",
+            "V": "x"
+        }
+    ],
+    "Project Management": [
+        {
+            "Dyscyplina": "Project Management",
+            "Tasks": "Acquire Staff",
+            "Inception": "Manage Iteration",
+            "Elaboration": "Manage Iteration",
+            "Construction": "Manage Iteration",
+            "Transition": "Manage Iteration",
+            "Role Main": "Project Manager",
+            "Output Artifacts": "Software Development Plan",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Project Management",
+            "Tasks": "Assess Iteration",
+            "Inception": "Manage Iteration",
+            "Elaboration": "Manage Iteration",
+            "Construction": "Manage Iteration",
+            "Transition": "Manage Iteration",
+            "Role Main": "Project Manager",
+            "Output Artifacts": "Iteration Assessment",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Project Management",
+            "Tasks": "Conduct Review",
+            "Inception": "Monitor & Control Project",
+            "Elaboration": "Monitor & Control Project",
+            "Construction": "Monitor & Control Project",
+            "Transition": "Monitor & Control Project",
+            "Role Main": "Reviewer",
+            "Output Artifacts": "Review Record",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Project Management",
+            "Tasks": "Define Project Organization and Staffing",
+            "Inception": "Plan the Project,Refine the Develoment Plan",
+            "Elaboration": "Plan the Project,Refine the Develoment Plan",
+            "Construction": "Plan the Project,Refine the Develoment Plan",
+            "Transition": "Plan the Project,Refine the Develoment Plan",
+            "Role Main": "Project Manager",
+            "Output Artifacts": "Software Development Plan",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Project Management",
+            "Tasks": "Develop Business Case",
+            "Inception": "Plan for Next Iteration,Conceive New Project,Evaluate Project Scope and Risk,Plan Remainder of Initial Iteration",
+            "Elaboration": "Plan for Next Iteration,Conceive New Project,Evaluate Project Scope and Risk,Plan Remainder of Initial Iteration",
+            "Construction": "Plan for Next Iteration,Conceive New Project,Evaluate Project Scope and Risk,Plan Remainder of Initial Iteration",
+            "Transition": "Plan for Next Iteration,Conceive New Project,Evaluate Project Scope and Risk,Plan Remainder of Initial Iteration",
+            "Role Main": "Project Manager",
+            "Output Artifacts": "Business Case",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Project Management",
+            "Tasks": "Develop Iteration Plan",
+            "Inception": "Plan for Next Iteration,Plan Remainder of Initial Iteration",
+            "Elaboration": "Plan for Next Iteration,Plan Remainder of Initial Iteration",
+            "Construction": "Plan for Next Iteration,Plan Remainder of Initial Iteration",
+            "Transition": "Plan for Next Iteration,Plan Remainder of Initial Iteration",
+            "Role Main": "Project Manager",
+            "Output Artifacts": "Iteration Plan",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Project Management",
+            "Tasks": "Identify and Assess Risks",
+            "Inception": "Manage Iteration,Conceive New Project,Evaluate Project Scope and Risk,Reevalutate Project Scope and Risk",
+            "Elaboration": "Manage Iteration,Conceive New Project,Evaluate Project Scope and Risk,Reevalutate Project Scope and Risk",
+            "Construction": "Manage Iteration,Conceive New Project,Evaluate Project Scope and Risk,Reevalutate Project Scope and Risk",
+            "Transition": "Manage Iteration,Conceive New Project,Evaluate Project Scope and Risk,Reevalutate Project Scope and Risk",
+            "Role Main": "Project Manager",
+            "Output Artifacts": "Risk List",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Project Management",
+            "Tasks": "Initiate Iteration",
+            "Inception": "Manage Iteration",
+            "Elaboration": "Manage Iteration",
+            "Construction": "Manage Iteration",
+            "Transition": "Manage Iteration",
+            "Role Main": "Project Manager",
+            "Output Artifacts": "Work Order",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Project Management",
+            "Tasks": "Initiate Project",
+            "Inception": "Conceive New Project",
+            "Elaboration": "Conceive New Project",
+            "Construction": "Conceive New Project",
+            "Transition": "Conceive New Project",
+            "Role Main": "Project Manager",
+            "Output Artifacts": "Software Development Plan",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Project Management",
+            "Tasks": "Iteration Evaluation Criteria Review",
+            "Inception": "Manage Iteration",
+            "Elaboration": "Manage Iteration",
+            "Construction": "Manage Iteration",
+            "Transition": "Manage Iteration",
+            "Role Main": "Management Reviewer",
+            "Output Artifacts": "Review Record",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Project Management",
+            "Tasks": "Iteration Plan Review",
+            "Inception": "Plan for Next Iteration,Plan Remainder of Initial Iteration",
+            "Elaboration": "Plan for Next Iteration,Plan Remainder of Initial Iteration",
+            "Construction": "Plan for Next Iteration,Plan Remainder of Initial Iteration",
+            "Transition": "Plan for Next Iteration,Plan Remainder of Initial Iteration",
+            "Role Main": "Management Reviewer",
+            "Output Artifacts": "Review Record",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Project Management",
+            "Tasks": "Organize Review",
+            "Inception": "Monitor & Control Project",
+            "Elaboration": "Monitor & Control Project",
+            "Construction": "Monitor & Control Project",
+            "Transition": "Monitor & Control Project",
+            "Role Main": "Review Coordinator",
+            "Output Artifacts": "Review Record",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Project Management",
+            "Tasks": "Plan Phases and Iterations",
+            "Inception": "Plan the Project,Refine the Develoment Plan",
+            "Elaboration": "Plan the Project,Refine the Develoment Plan",
+            "Construction": "Plan the Project,Refine the Develoment Plan",
+            "Transition": "Plan the Project,Refine the Develoment Plan",
+            "Role Main": "Project Manager",
+            "Output Artifacts": "Software Development Plan",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Project Management",
+            "Tasks": "Project Approval Review",
+            "Inception": "Conceive New Project",
+            "Elaboration": "Conceive New Project",
+            "Construction": "Conceive New Project",
+            "Transition": "Conceive New Project",
+            "Role Main": "Management Reviewer",
+            "Output Artifacts": "Review Record",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Project Management",
+            "Tasks": "Project Planning Review",
+            "Inception": "Plan the Project,Refine the Develoment Plan",
+            "Elaboration": "Plan the Project,Refine the Develoment Plan",
+            "Construction": "Plan the Project,Refine the Develoment Plan",
+            "Transition": "Plan the Project,Refine the Develoment Plan",
+            "Role Main": "Management Reviewer",
+            "Output Artifacts": "Review Record",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Project Management",
+            "Tasks": "Report Status",
+            "Inception": "Monitor & Control Project",
+            "Elaboration": "Monitor & Control Project",
+            "Construction": "Monitor & Control Project",
+            "Transition": "Monitor & Control Project",
+            "Role Main": "Project Manager",
+            "Output Artifacts": "Status Assessment",
+            "II": "x",
+            "V": "x"
+        },
+        {
+            "Dyscyplina": "Project Management",
+            "Tasks": "Schedule and Assign Work",
+            "Inception": "Monitor & Control Project",
+            "Elaboration": "Monitor & Control Project",
+            "Construction": "Monitor & Control Project",
+            "Transition": "Monitor & Control Project",
+            "Role Main": "Project Manager",
+            "Output Artifacts": "Iteration Plan,Software Development Plan,Work Order",
+            "II": "x",
+            "V": "x"
+        }
+    ]
+}
