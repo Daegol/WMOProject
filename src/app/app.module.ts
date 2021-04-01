@@ -11,6 +11,7 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {NgbdSortableHeader} from './project-class-i/sortable.directive';
 import {DecimalPipe} from '@angular/common';
 import { ProjectClassIiComponent } from './project-class-ii/project-class-ii.component';
+import { MatchPageComponent } from './match-page/match-page.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ProjectClassIiComponent } from './project-class-ii/project-class-ii.com
     ProjectClassIComponent,
     HomeComponent,
     NgbdSortableHeader,
-    ProjectClassIiComponent
+    ProjectClassIiComponent,
+    MatchPageComponent
   ],
   imports: [
     BrowserModule,

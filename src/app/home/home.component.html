@@ -160,6 +160,31 @@
             </div>
           </div>
         </section>
+        <h2 style="padding-top: 25px; padding-bottom: 25px">Porównanie</h2>
+        <section>
+          <div class="row">
+          <select class="form-select col-md-4" multiple [(ngModel)]="selected1">
+            <option value="1" disabled>Klasa I</option>
+            <option value="2">Klasa II</option>
+            <option value="3" disabled>Klasa III</option>
+            <option value="3" disabled>Klasa IV</option>
+            <option value="3">Klasa V</option>
+            <option value="3" disabled>Klasa VI</option>
+          </select>
+            <div class="col-md-4">
+              <button class="col-md-12" (click)="compare()"> Porównaj</button>
+              <label>{{text}}</label>
+            </div>
+          <select class="form-select col-md-4" multiple [(ngModel)]="selected2">
+            <option value="1" disabled>Klasa I</option>
+            <option value="2">Klasa II</option>
+            <option value="3" disabled>Klasa III</option>
+            <option value="3" disabled>Klasa IV</option>
+            <option value="3">Klasa V</option>
+            <option value="3" disabled>Klasa VI</option>
+          </select>
+          </div>
+        </section>
       </div>
     </div>
   </div>

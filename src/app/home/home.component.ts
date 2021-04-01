@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
 
 interface ProjectClass {
   teamNumberD: number;
@@ -20,7 +21,7 @@ interface ProjectClass {
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
   projectClasses: ProjectClass[] = [
     {teamNumberD:1,teamNumberU:1,range:0,durationD:0,durationU:3,compli:0,risk:0,costD:0,costU:50,name: "Klasa I"},
     {teamNumberD:1,teamNumberU:3,range:0,durationD:4,durationU:7,compli:0,risk:0,costD:0,costU:100,name: "Klasa II"},
@@ -29,6 +30,8 @@ export class HomeComponent implements OnInit {
     {teamNumberD:50,teamNumberU:150,range:2,durationD:52,durationU:156,compli:2,risk:1,costD:10000,costU:100000,name: "Klasa V"},
     {teamNumberD:150,teamNumberU:200,range:2,durationD:7,durationU:24,compli:3,risk:1,costD:100000,costU:1000000,name: "Klasa VI"},
   ];
+  selected1: any;
+  selected2: any;
   amount: any = 100;
   range: string[] = ["mały","średni","duży","bardzo duży"]
   compRange: string[] = ["mały","średni","duży", "bardzo duży"]
@@ -43,6 +46,7 @@ export class HomeComponent implements OnInit {
   costValue = 50;
   unit: any = "tys";
   result: any ="";
+  text:any = ""
   ngOnInit(): void {
   }
   calc(): void {
@@ -87,5 +91,15 @@ export class HomeComponent implements OnInit {
       }
     })
     this.result = "Wynik: " + selectedProject;
+  }
+
+  compare(): void {
+    if(this.selected1[0] == this.selected2[0]) {
+      this.text = "Wybierz różne klasy";
+    }
+    else{
+      this.router.navigate(['/match']);
+      this.text = "";
+    }
   }
 }

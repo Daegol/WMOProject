@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import {ProjectClassIComponent} from './project-class-i/project-class-i.component';
 import {HomeComponent} from './home/home.component';
 import {ProjectClassIiComponent} from './project-class-ii/project-class-ii.component';
+import {MatchPageComponent} from './match-page/match-page.component';
 
 const routes: Routes = [
   {
@@ -15,7 +16,10 @@ const routes: Routes = [
   }, {
     path: 'classII',
     component: ProjectClassIiComponent
-  }
+  }, {
+    path: 'match',
+    component: MatchPageComponent
+  },
   ];
 
 @NgModule({
