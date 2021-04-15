@@ -42,16 +42,16 @@ export class HomeComponent implements OnInit {
   time: any = 130;
   timeUnit: string = "lat";
   timeValue: any = 2.5;
-  cost: any = 50;
-  costValue = 50;
-  unit: any = "tys";
+  cost: any = 100000;
+  costValue = 100;
+  unit: any = "mln";
   result: any ="";
   text:any = ""
   ngOnInit(): void {
   }
   calc(): void {
     let c = this.cost/1000;
-    if(c>1) {
+    if(c>=1) {
       this.costValue = this.cost/1000;
       this.unit = "mln";
     } else {

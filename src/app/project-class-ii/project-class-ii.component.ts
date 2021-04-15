@@ -11,7 +11,7 @@ import {RowService} from './table.service';
   styleUrls: ['./project-class-ii.component.css'],
   providers: [DecimalPipe]
 })
-export class ProjectClassIiComponent implements OnInit {
+export class ProjectClassIiComponent implements OnInit  {
 
   rows$: Observable<Row[]>;
   total$: Observable<number>;
@@ -19,6 +19,7 @@ export class ProjectClassIiComponent implements OnInit {
   disciplineName: string = "Wszystkie dyscypliny";
   phase: string = "";
   phaseName: string = "Wszystkie fazy";
+  tab: number = 0;
   @ViewChildren(NgbdSortableHeader) headers: QueryList<NgbdSortableHeader>;
 
   constructor(public service: RowService) {
@@ -34,6 +35,10 @@ export class ProjectClassIiComponent implements OnInit {
     if(disc!="") this.disciplineName = disc;
     else this.disciplineName = "Wszystkie dyscypliny";
     this.changeData()
+  }
+
+  changeTab(tab:number) {
+    this.tab = tab;
   }
 
   onClickPhs(disc:string) {

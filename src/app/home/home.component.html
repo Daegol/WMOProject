@@ -55,7 +55,7 @@
         </div>
         <div class="col-md-2">
           <label for="range4" class="form-label">Koszt</label>
-          <input type="range" class="form-range" min="50" max="500000" step="100" id="range4" [(ngModel)]="cost" (ngModelChange)="calc()"  >
+          <input type="range" class="form-range" min="0" max="200000" step="50" id="range4" [(ngModel)]="cost" (ngModelChange)="calc()"  >
           <label for="range4" class="form-label">{{costValue}} {{unit}}</label>
         </div>
         <div class="col-md-2">

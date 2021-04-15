@@ -56,7 +56,7 @@ export class RowService {
 
   private _state: State = {
     page: 1,
-    pageSize: 4,
+    pageSize: 99,
     searchTerm: '',
     sortColumn: '',
     sortDirection: ''

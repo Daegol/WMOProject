@@ -12,6 +12,8 @@ import {NgbdSortableHeader} from './project-class-i/sortable.directive';
 import {DecimalPipe} from '@angular/common';
 import { ProjectClassIiComponent } from './project-class-ii/project-class-ii.component';
 import { MatchPageComponent } from './match-page/match-page.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatTabsModule} from '@angular/material/tabs';
 
 @NgModule({
   declarations: [
@@ -20,14 +22,17 @@ import { MatchPageComponent } from './match-page/match-page.component';
     HomeComponent,
     NgbdSortableHeader,
     ProjectClassIiComponent,
-    MatchPageComponent
+    MatchPageComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    MatTabsModule,
   ],
   providers: [DecimalPipe],
   bootstrap: [AppComponent],

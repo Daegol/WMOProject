@@ -112,6 +112,33 @@
           </div>
         </form>
       </section>
+
+      <section>
+        <h3>Diagramy procesów</h3>
+        <div style="padding-top: 50px">
+
+          <div class="card">
+            <div class="card-header">
+              <button class="col-md-3" (click)="changeTab(0)">Analysis and Design</button>
+              <button class="col-md-3" (click)="changeTab(1)">Bussiness Modeling</button>
+              <button class="col-md-3" (click)="changeTab(2)">Implementation</button>
+              <button class="col-md-3" (click)="changeTab(3)">Requirements</button>
+            </div>
+            <div class="card-body" *ngIf="tab==0">
+              <img src="../../assets/img/AnalysisandDesign.png" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body" *ngIf="tab==1">
+              <img src="../../assets/img/BussinessModelingDiagram.png" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body" *ngIf="tab==2">
+              <img src="../../assets/img/Implementation.png" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body" *ngIf="tab==3">
+              <img src="../../assets/img/Requirements.png" class="card-img-top" alt="...">
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   </div>
 </div>
