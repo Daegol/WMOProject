@@ -14,6 +14,7 @@ import { ProjectClassIiComponent } from './project-class-ii/project-class-ii.com
 import { MatchPageComponent } from './match-page/match-page.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatTabsModule} from '@angular/material/tabs';
+import {NgxImageZoomModule} from 'ngx-image-zoom';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import {MatTabsModule} from '@angular/material/tabs';
     FormsModule,
     BrowserAnimationsModule,
     MatTabsModule,
+    NgxImageZoomModule
   ],
   providers: [DecimalPipe],
   bootstrap: [AppComponent],

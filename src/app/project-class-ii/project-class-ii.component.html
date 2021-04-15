@@ -112,29 +112,48 @@
           </div>
         </form>
       </section>
-
       <section>
         <h2>Diagramy procesów</h2>
         <div style="padding-top: 50px">
 
           <div class="card">
             <div class="card-header">
-              <button class="col-md-3" (click)="changeTab(0)">Analysis and Design</button>
-              <button class="col-md-3" (click)="changeTab(1)">Bussiness Modeling</button>
-              <button class="col-md-3" (click)="changeTab(2)">Implementation</button>
-              <button class="col-md-3" (click)="changeTab(3)">Requirements</button>
+              <button class="col-md-3" (click)="changeTab(0)">Inception</button>
+              <button class="col-md-3" (click)="changeTab(1)">Elaboration</button>
+              <button class="col-md-3" (click)="changeTab(2)">Construction</button>
+              <button class="col-md-3" (click)="changeTab(3)">Transition</button>
             </div>
             <div class="card-body" *ngIf="tab==0">
-              <img src="assets/img/analysisandDesign.png" class="card-img-top" alt="...">
+              <lib-ngx-image-zoom
+                [thumbImage]=ti1
+                [fullImage]=fsi1
+                [enableScrollZoom]="true"
+                [zoomMode]=zoomMode
+              ></lib-ngx-image-zoom>
             </div>
             <div class="card-body" *ngIf="tab==1">
-              <img src="assets/img/bussinessModelingDiagram.png" class="card-img-top" alt="...">
+              <lib-ngx-image-zoom
+                [thumbImage]=ti2
+                [fullImage]=fsi2
+                [enableScrollZoom]="true"
+                [zoomMode]=zoomMode
+              ></lib-ngx-image-zoom>
             </div>
             <div class="card-body" *ngIf="tab==2">
-              <img src="assets/img/implementation.png" class="card-img-top" alt="...">
+              <lib-ngx-image-zoom
+                [thumbImage]=ti3
+                [fullImage]=fsi3
+                [enableScrollZoom]="true"
+                [zoomMode]=zoomMode
+              ></lib-ngx-image-zoom>
             </div>
             <div class="card-body" *ngIf="tab==3">
-              <img src="assets/img/requirements.png" class="card-img-top" alt="...">
+              <lib-ngx-image-zoom
+                [thumbImage]=ti4
+                [fullImage]=fsi4
+                [enableScrollZoom]="true"
+                [zoomMode]=zoomMode
+              ></lib-ngx-image-zoom>
             </div>
           </div>
         </div>

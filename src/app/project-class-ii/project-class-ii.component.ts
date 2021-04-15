@@ -14,6 +14,15 @@ import {RowService} from './table.service';
 export class ProjectClassIiComponent implements OnInit  {
 
   rows$: Observable<Row[]>;
+  fsi1: string = "assets/img/Inception_V.png";
+  ti1: string = "assets/img/Inception_VT.png";
+  fsi2: string = "assets/img/Elaboration_V.png";
+  ti2: string = "assets/img/Elaboration_VT.png";
+  fsi3: string = "assets/img/Construction_V.png";
+  ti3: string = "assets/img/Construction_VT.png";
+  fsi4: string = "assets/img/Transition_V.png";
+  ti4: string = "assets/img/Transition_VT.png";
+  zoomMode = "hover-freeze";
   total$: Observable<number>;
   discipline: string = "";
   disciplineName: string = "Wszystkie dyscypliny";

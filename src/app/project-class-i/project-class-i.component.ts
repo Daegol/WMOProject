@@ -18,11 +18,21 @@ import {Row} from './Row';
 
 export class ProjectClassIComponent implements OnInit {
 
+  fsi1: string = "assets/img/Inception_II.png";
+  ti1: string = "assets/img/Inception_IIT.png";
+  fsi2: string = "assets/img/Elaboration_II.png";
+  ti2: string = "assets/img/Elaboration_IIT.png";
+  fsi3: string = "assets/img/Construction_II.png";
+  ti3: string = "assets/img/Construction_IIT.png";
+  fsi4: string = "assets/img/Transition_II.png";
+  ti4: string = "assets/img/Transition_IIT.png";
+  zoomMode = "hover-freeze";
   rows$: Observable<Row[]>;
   total$: Observable<number>;
   discipline: string = "";
   disciplineName: string = "Wszystkie dyscypliny";
   phase: string = "";
+  tab: number= 0;
   phaseName: string = "Wszystkie fazy";
   @ViewChildren(NgbdSortableHeader) headers: QueryList<NgbdSortableHeader>;
 
@@ -32,6 +42,10 @@ export class ProjectClassIComponent implements OnInit {
   }
 
   ngOnInit(): void {
+  }
+
+  changeTab(tab:number) {
+    this.tab = tab;
   }
 
   onClickDisc(disc:string) {
